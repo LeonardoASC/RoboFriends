@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import CardList from './CardList';
-import SearchBox from './SearchBox';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
 import './App.css';
+import Scroll from "../components/Scroll";
 
 const App = () => {
     const [robotsState, setRobotsState] = useState({
@@ -50,7 +51,9 @@ const App = () => {
             <SearchBox onSearchChange={onSearchChange} />
             {isDataLoaded ? (
                 <>
+                <Scroll>
                     <CardList robots={filterRobots} />
+                </Scroll>
                 </>
             ) : (
                 <h1 className="f2">Loading...(teste async - await)</h1>
