@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RoboFriends/static/css/main.78ae8c6c.css",
+    "main.js": "/RoboFriends/static/js/main.3f2b0194.js",
+    "static/js/787.c2cff050.chunk.js": "/RoboFriends/static/js/787.c2cff050.chunk.js",
+    "static/media/RetroMario-Regular.woff": "/RoboFriends/static/media/RetroMario-Regular.07d3ee7a667bc9921d7e.woff",
+    "index.html": "/RoboFriends/index.html",
+    "main.78ae8c6c.css.map": "/RoboFriends/static/css/main.78ae8c6c.css.map",
+    "main.3f2b0194.js.map": "/RoboFriends/static/js/main.3f2b0194.js.map",
+    "787.c2cff050.chunk.js.map": "/RoboFriends/static/js/787.c2cff050.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78ae8c6c.css",
+    "static/js/main.3f2b0194.js"
+  ]
+}
